@@ -5,7 +5,8 @@
   "main": "app.js",
   "scripts": {
     "start": "node src/app.js",
-    "test": "mocha"
+    "test": "mocha",
+    "lint": "./node_modules/.bin/eslint src/*.js src/**/*.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,12 @@
     "express": "^4.16.4"
   },
   "devDependencies": {
+    "eslint": "^5.7.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
     "mocha": "^5.2.0"
   }
 }
