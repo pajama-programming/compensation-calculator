@@ -1,0 +1,19 @@
+{
+  "name": "compensation-calculator",
+  "version": "0.1.0",
+  "description": "Calculator to determine realized compensation.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pajama-programming/compensation-calculator.git"
+  },
+  "author": "pjbollinger <owner@pjbollinger.com> (https://pjbollinger.com/)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/pajama-programming/compensation-calculator/issues"
+  },
+  "homepage": "https://github.com/pajama-programming/compensation-calculator#readme"
+}
