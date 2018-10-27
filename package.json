@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node src/app.js",
     "test": "mocha test/bootstrap.js --recursive test",
-    "lint": "./node_modules/.bin/eslint src/*.js src/**/*.js"
+    "lint": "./node_modules/.bin/eslint src/*.js src/**/*.js test/*.js test/**/*.js"
   },
   "repository": {
     "type": "git",
