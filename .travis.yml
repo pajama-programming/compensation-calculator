@@ -3,6 +3,9 @@ node_js:
   - "stable"
 install:
   - npm install
-script:
-  - npm test
-  - npm run lint
+jobs:
+  include:
+    - stage: "Tests"
+      script: npm test
+    - stage: "Lint"
+      script: npm run lint
